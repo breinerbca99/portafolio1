@@ -1,0 +1,71 @@
+<div class="bo">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark float-lg-right float-md-right float-sm-left">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center text-lg-right">
+                <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" routerLink="/perfil" routerLinkActive="active">Mi perfil</a>
+
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" routerLink="/portafolio" routerLinkActive="active">Portafolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="container-lg">
+        <div class="row">
+            <div class="col" style="margin-top: 40px;">
+                <h3>Lenguaje: {{infoBuscado.lengua}}</h3>
+                <h2>Nombre del proyecto: {{infoBuscado.nombre}}</h2>
+
+                <h3> Descripcion corta:</h3>
+                <p>
+                    {{infoBuscado.descripcion}}
+                </p>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-8 ">
+                <img class="border border-light" src="{{infoBuscado.imagen}}" style="width: 100%;">
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+
+            <div class="row">
+                <div class="col">
+                    <h2>Tecnologia utilizadas</h2>
+                    <ul>
+                        <li *ngFor="let tecnologia of infoBuscado.tecnologias">{{tecnologia}}</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div *ngFor="let vista of infoBuscado.vistas" class="col-lg-6 col-md-12 p-3">
+                    <div class="card animated fadeIn bg-dark text-light border border-light">
+                        <img src="{{vista.img}}" style="width: 100%; ">
+                        <!-- detalles -->
+                        <div class="card-body">
+                            <h4 class="card-title">{{vista.nombre}}</h4>
+                            <p class="card-text">{{vista.descripcion}}</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

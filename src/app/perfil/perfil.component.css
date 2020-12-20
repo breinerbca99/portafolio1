@@ -1,0 +1,634 @@
+/* Estilos generales */
+
+h1,
+h3,
+h4 {
+    color: white
+}
+
+
+/* HEADER */
+
+.imagen {
+    width: 100%;
+}
+
+.iconos {
+    width: 150px;
+    /* background: yellow; */
+}
+
+.imgRedonda {
+    width: 270px;
+    height: 270px;
+    border-radius: 135px;
+    position: relative;
+    margin-top: -210px;
+    margin-left: 65px;
+    border: 5px solid white;
+    z-index: 99;
+}
+
+.letraRelativa {
+    width: 460px;
+    height: 260px;
+    position: relative;
+    margin-top: -220px;
+    margin-left: 500px;
+    z-index: 99;
+    /* color: #3a3939; */
+    color: #cccccc;
+}
+
+
+/* Informacion Personal  */
+
+.imgRedonda2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    margin-left: 100px;
+    border: 5px solid white;
+    z-index: 99;
+}
+
+
+/* Niveles de Conocimiento */
+
+.lia {
+    display: inline;
+    margin-right: 30px;
+    color: white;
+}
+
+span.green {
+    background: #5EA226;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 5px;
+    text-align: center;
+    width: 1.6em;
+}
+
+span.blue {
+    background: #5178D0;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 5px;
+    text-align: center;
+    width: 1.6em;
+}
+
+span.yellow {
+    background: rgb(223, 223, 17);
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 5px;
+    text-align: center;
+    width: 1.6em;
+}
+
+span.red {
+    background: red;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 5px;
+    text-align: center;
+    width: 1.6em;
+}
+
+span.grey {
+    background: #cccccc;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 5px;
+    text-align: center;
+    width: 1.6em;
+}
+
+span.purple {
+    background: #8f3e3e;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 5px;
+    text-align: center;
+    width: 1.6em;
+}
+
+
+/* SKILLS */
+
+.titulo {
+    color: white
+}
+
+.union {
+    color: white
+}
+
+@media (max-width: 1280px) {
+    .imgRedonda {
+        width: 270px;
+        height: 270px;
+        border-radius: 135px;
+        position: relative;
+        margin-top: -180px;
+        margin-left: 65px;
+        border: 5px solid white;
+        z-index: 99;
+    }
+    .letraRelativa {
+        width: 460px;
+        height: 260px;
+        position: relative;
+        margin-top: -220px;
+        margin-left: 500px;
+        /* border: 5px solid white; */
+        z-index: 99;
+    }
+    .iconos {
+        width: 145px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .imgRedonda {
+        width: 250px;
+        height: 250px;
+        border-radius: 135px;
+        position: relative;
+        margin-top: -180px;
+        margin-left: 65px;
+        border: 5px solid white;
+        z-index: 99;
+    }
+    .letraRelativa {
+        width: 460px;
+        height: 260px;
+        position: relative;
+        margin-top: -220px;
+        margin-left: 430px;
+        /* border: 5px solid white; */
+        z-index: 99;
+    }
+    .iconos {
+        width: 140px;
+    }
+}
+
+@media (max-width: 980px) {
+    .imgRedonda {
+        width: 240px;
+        height: 240px;
+        border-radius: 135px;
+        position: relative;
+        margin-top: -180px;
+        margin-left: 65px;
+        border: 5px solid white;
+        z-index: 99;
+    }
+    .letraRelativa {
+        width: 460px;
+        height: 260px;
+        position: relative;
+        margin-top: -220px;
+        margin-left: 390px;
+        /* border: 5px solid white; */
+        z-index: 99;
+    }
+}
+
+@media (max-width: 880px) {
+    .imgRedonda {
+        width: 200px;
+        height: 200px;
+        border-radius: 135px;
+        position: relative;
+        margin-top: -180px;
+        margin-left: 65px;
+        border: 5px solid white;
+        z-index: 99;
+    }
+    .letraRelativa {
+        width: 460px;
+        height: 260px;
+        position: relative;
+        margin-top: -220px;
+        margin-left: 340px;
+        /* border: 5px solid white; */
+        z-index: 99;
+    }
+    .iconos {
+        width: 130px;
+    }
+}
+
+@media (max-width: 800px) {
+    .imgRedonda {
+        width: 200px;
+        height: 200px;
+        border-radius: 135px;
+        position: relative;
+        margin-top: -180px;
+        margin-left: 65px;
+        border: 5px solid white;
+        z-index: 99;
+    }
+    .letraRelativa {
+        width: 460px;
+        height: 260px;
+        position: relative;
+        margin-top: -220px;
+        margin-left: 290px;
+        /* border: 5px solid white; */
+        z-index: 99;
+    }
+}
+
+@media (max-width: 680px) {
+    .imgRedonda {
+        width: 160px;
+        height: 160px;
+        border-radius: 120px;
+        position: relative;
+        margin-top: -180px;
+        margin-left: 10px;
+        border: 5px solid white;
+        z-index: 99;
+    }
+    .letraRelativa {
+        width: 460px;
+        height: 260px;
+        position: relative;
+        margin-top: -220px;
+        margin-left: 200px;
+        /* border: 5px solid white; */
+        z-index: 99;
+    }
+    .iconos {
+        width: 120px;
+    }
+}
+
+@media (max-width: 600px) {
+    p {
+        font-size: 160% !important;
+    }
+    h1 {
+        text-align: center;
+        font-size: 250% !important;
+    }
+    h3 {
+        text-align: center;
+        font-size: 190% !important;
+    }
+    h4 {
+        text-align: center;
+        font-size: 160% !important;
+    }
+    .body {
+        width: 350px;
+    }
+    .cuadroPagina {
+        /* width: 400px; */
+        width: 100%;
+        margin-right: auto;
+    }
+    .imagen {
+        /* width: 400px; */
+        width: 100%;
+    }
+    .imgRedonda {
+        width: 140px;
+        height: 140px;
+        border-radius: 115px;
+        position: relative;
+        margin-top: -560px;
+        margin-left: 210px;
+        border: 5px solid white;
+        z-index: 99;
+    }
+    .letraRelativa {
+        /* width: 460px; */
+        width: 100%;
+        height: 260px;
+        position: relative;
+        margin-top: -220px;
+        margin-left: 0px;
+        /* border: 5px solid white; */
+        z-index: 99;
+    }
+    .iconos {
+        width: 115px;
+    }
+    .imagen {
+        margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 550px) {
+    p {
+        font-size: 140% !important;
+    }
+    h1 {
+        text-align: center;
+        font-size: 200% !important;
+    }
+    h3 {
+        text-align: center;
+        font-size: 160% !important;
+    }
+    h4 {
+        text-align: center;
+        font-size: 140% !important;
+    }
+    .body {
+        width: 350px;
+    }
+    .cuadroPagina {
+        /* width: 400px; */
+        width: 100%;
+        margin-right: auto;
+    }
+    .imagen {
+        /* width: 400px; */
+        width: 100%;
+    }
+    .imgRedonda {
+        width: 140px;
+        height: 140px;
+        border-radius: 115px;
+        position: relative;
+        /* margin-top: -560px; */
+        margin-top: -360px;
+        margin-left: 190px;
+        border: 5px solid white;
+        z-index: 99;
+    }
+    .letraRelativa {
+        /* width: 460px; */
+        width: 100%;
+        height: 260px;
+        position: relative;
+        margin-top: -220px;
+        margin-left: 0px;
+        /* border: 5px solid white; */
+        z-index: 99;
+    }
+    .iconos {
+        width: 110px;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        font-size: 120% !important;
+    }
+    h1 {
+        text-align: center;
+        font-size: 160% !important;
+    }
+    h3 {
+        text-align: center;
+        font-size: 140% !important;
+    }
+    h4 {
+        text-align: center;
+        font-size: 120% !important;
+    }
+    .body {
+        width: 350px;
+    }
+    .cuadroPagina {
+        /* width: 400px; */
+        width: 100%;
+        margin-right: auto;
+    }
+    .imagen {
+        /* width: 400px; */
+        width: 100%;
+    }
+    .imgRedonda {
+        width: 140px;
+        height: 140px;
+        border-radius: 115px;
+        position: relative;
+        margin-top: -560px;
+        margin-left: 155px;
+        border: 5px solid white;
+        z-index: 99;
+    }
+    .letraRelativa {
+        /* width: 460px; */
+        width: 100%;
+        height: 260px;
+        position: relative;
+        margin-top: -220px;
+        margin-left: 0px;
+        /* border: 5px solid white; */
+        z-index: 99;
+    }
+    .iconos {
+        width: 95%;
+    }
+    .iconos {
+        width: 110px;
+    }
+}
+
+@media (max-width: 450px) {
+    p {
+        font-size: 110% !important;
+    }
+    h1 {
+        text-align: center;
+        font-size: 150% !important;
+    }
+    h3 {
+        text-align: center;
+        font-size: 125% !important;
+    }
+    h4 {
+        text-align: center;
+        font-size: 110% !important;
+    }
+    .body {
+        width: 350px;
+    }
+    .cuadroPagina {
+        /* width: 400px; */
+        width: 100%;
+        margin-right: auto;
+    }
+    .imagen {
+        /* width: 400px; */
+        width: 100%;
+    }
+    .imgRedonda {
+        width: 140px;
+        height: 140px;
+        border-radius: 115px;
+        position: relative;
+        margin-top: -560px;
+        margin-left: 135px;
+        border: 5px solid white;
+        z-index: 99;
+    }
+    .letraRelativa {
+        /* width: 460px; */
+        width: 100%;
+        height: 260px;
+        position: relative;
+        margin-top: -220px;
+        margin-left: 0px;
+        /* border: 5px solid white; */
+        z-index: 99;
+    }
+    .iconos {
+        width: 110px;
+    }
+}
+
+@media (max-width: 400px) {
+    p {
+        font-size: 100% !important;
+    }
+    h1 {
+        text-align: center;
+        font-size: 140% !important;
+    }
+    h3 {
+        text-align: center;
+        font-size: 120% !important;
+    }
+    h4 {
+        text-align: center;
+        font-size: 100% !important;
+    }
+    .body {
+        width: 350px;
+    }
+    .cuadroPagina {
+        /* width: 400px; */
+        width: 100%;
+        margin-right: auto;
+    }
+    .imagen {
+        /* width: 400px; */
+        width: 100%;
+    }
+    .imgRedonda {
+        width: 140px;
+        height: 140px;
+        border-radius: 115px;
+        position: relative;
+        margin-top: -560px;
+        margin-left: 118px;
+        border: 5px solid white;
+        z-index: 99;
+    }
+    .letraRelativa {
+        /* width: 460px; */
+        width: 100%;
+        height: 260px;
+        position: relative;
+        margin-top: -220px;
+        margin-left: 0px;
+        /* border: 5px solid white; */
+        z-index: 99;
+    }
+    .iconos {
+        width: 110px;
+    }
+}
+
+@media (max-width: 350px) {
+    p {
+        font-size: 95% !important;
+    }
+    h1 {
+        text-align: center;
+        font-size: 120% !important;
+    }
+    h3 {
+        text-align: center;
+        font-size: 110% !important;
+    }
+    h4 {
+        text-align: center;
+        font-size: 80% !important;
+    }
+    .body {
+        width: 350px;
+    }
+    .cuadroPagina {
+        /* width: 400px; */
+        width: 100%;
+        margin-right: auto;
+    }
+    .imagen {
+        /* width: 400px; */
+        width: 100%;
+    }
+    .imgRedonda {
+        width: 140px;
+        height: 140px;
+        border-radius: 120px;
+        position: relative;
+        margin-top: -500px;
+        margin-left: 100px;
+        border: 5px solid white;
+        z-index: 99;
+    }
+    .letraRelativa {
+        /* width: 460px; */
+        width: 100%;
+        height: 260px;
+        position: relative;
+        margin-top: -170px;
+        margin-left: 0px;
+        /* border: 5px solid white; */
+        z-index: 99;
+    }
+    .imgRedonda2 {
+        /* width: 120px;
+        height: 120px;
+        border-radius: 150px;
+        border: 5px solid white;
+        z-index: 99; */
+        margin-top: -60px !important;
+    }
+    .iconos {
+        width: 110px;
+    }
+}
