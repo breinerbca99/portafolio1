@@ -22,7 +22,10 @@ export class PerfilComponent implements OnInit {
           'assets/imagenes/adidas/adidas3.png',
           'assets/imagenes/adidas/adidas4.png',
           'assets/imagenes/adidas/adidas5.png',
-        ]
+        ],
+        titulo:'Proyecto Adidas',
+        descripcion:'Este proyecto es una réplica de la empresa Adidas en la cual generamos las vistas para el usuario y para un administrador ',
+        lenguajes:'Spring y Angular'
       },
       {
         imagenes:[
@@ -31,7 +34,10 @@ export class PerfilComponent implements OnInit {
           'assets/imagenes/carrito/3.png',
           'assets/imagenes/carrito/4.png',
           'assets/imagenes/carrito/5.png',
-        ]
+        ],
+        titulo:'Carrito de compra',
+        descripcion:'Este proyecto simula un carrito de compras con distintas formas de pago Java EE y servlets',
+        lenguajes:'Java y servlets'
       },
       {
         imagenes:[
@@ -40,7 +46,10 @@ export class PerfilComponent implements OnInit {
           'assets/imagenes/ingreso/ingreso3.png',
           'assets/imagenes/ingreso/ingreso4.png',
           'assets/imagenes/ingreso/ingreso5.png',
-        ]
+        ],
+        titulo:'Redux ingreso –egreso',
+        descripcion:'Este proyecto permitirá ver el ingreso y egresos que tuvo una persona en su rutina ',
+        lenguajes:'Angular y Redux '
       },
       {
         imagenes:[
@@ -49,7 +58,10 @@ export class PerfilComponent implements OnInit {
           'assets/imagenes/hospital/hospital3.png',
           'assets/imagenes/hospital/hospital4.png',
           'assets/imagenes/hospital/hospital5.png',
-        ]
+        ],
+        titulo:'Proyecto Hospital',
+        descripcion:'Este proyecto permite manejar usuarios, doctores, hospitales y pacientes',
+        lenguajes:'Node y Angular'
       },
       {
         imagenes:[
@@ -58,7 +70,10 @@ export class PerfilComponent implements OnInit {
           'assets/imagenes/examen/examen3.png',
           'assets/imagenes/examen/examen4.png',
           'assets/imagenes/examen/examen5.png',
-        ]
+        ],
+        titulo:'Proyecto Aula virtual',
+        descripcion:'Este proyecto permite rendir a un alumno un examen, matricularse en un curso y ver los exámenes del curso',
+        lenguajes:'Spring (Microservicios) y Angular'
       },
       {
         imagenes:[
@@ -66,11 +81,12 @@ export class PerfilComponent implements OnInit {
           'assets/imagenes/spotify/spotify2.png',
           'assets/imagenes/spotify/spotify3.png',
           'assets/imagenes/spotify/spotify4.png',
-        ]
+        ],
+        titulo:'Spotify',
+        descripcion:'Este proyecto permite a los usuarios poder guardar a sus artistas preferidos, sus álbumes y las canciones de esos álbumes.',
+        lenguajes:'Node y Angular'
       },
     ];
-    console.log('breiner');
-    console.log(this.carrusel);
     
   }
 
