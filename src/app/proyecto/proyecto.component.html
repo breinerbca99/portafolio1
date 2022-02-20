@@ -1,0 +1,102 @@
+<div class="page" id="home-section">
+
+    <!-- Header -->
+    <header>
+        <div class="top-menu">
+            <ul>
+                <li>
+                    <a class="text-white active" aria-current="page" routerLink="/perfil"
+                        routerLinkActive="active"><span class="circle">Home</span></a>
+                </li>
+                <li>
+                    <a class="btn_animated"><span class="circle">About</span></a>
+                </li>
+            </ul>
+            <a  class="menu-btn bg-primary"><span></span></a>
+        </div>
+    </header>
+
+    <div style="background-color: #f8efef;">
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Section About -->
+            <div class="section about" id="about-section">
+                <div class="content-box">
+                    <div class="row">
+                        <div class="col col-sm-12 col-md-5 col-lg-5">
+                            TECNOLOGIAS
+                            <div class="info-list">
+                                <ul style="list-style: none;">
+                                    <li><strong><span>Edad:</span></strong> 22 Years</li>
+                                    <li><strong><span>Tranajp:</span></strong> Freelancer</li>
+                                    <li><strong><span>Ciudadania:</span></strong> United States</li>
+                                    <li>
+                                        <strong><span>Celular:</span></strong> 
+                                        <a href="tel:997072900">+51 997 072 900</a>
+                                    </li>
+                                    <li><strong><span>E-mail:</span></strong> 
+                                        <a href="mailto:smorgan@domain.com">breinerbca2015@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col col-m-12 col-t-7 col-d-7">
+                            <div class="text-box">
+                                <p><strong>Nombre del proyecto</strong></p>
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium,
+                                    totam rem aperiam,
+                                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                                    dicta sunt explicabo.
+                                    Nemo enim ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit. Sed ut perspiciatis
+                                    unde omnis iste
+                                    natus error sit
+                                    voluptatem accusantium doloremque.
+                                </p>
+                                <p>
+                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+                                    quia consequuntur
+                                    magni dolores.
+                                </p>
+                            </div>
+                            <div class="bts">
+                                <a class="btn btn_animated"><span class="circle">Enlace del proyecto</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- MAS SOBRE EL PROYECTO -->
+
+            <!-- Section Skills -->
+            <div class="section skills" id="skills-section">
+                <div class="title title-skills">Skills</div>
+
+                <div class="row">
+                    <div *ngFor="let vista of proyectoBuscado.vistas" class="col-sm-12 col-md-6 col-d-6">
+                        <div class="content-box animated">
+                            <div>
+                                <img  src="{{vista.img}}" style="width: 100%; ">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">{{vista.nombre}}</h4>
+                                <p class="card-text">{{vista.descripcion}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <div class="copy">© 2016 mCard. All rights reserved.</div>
+            </footer>
+
+        </div>
+    </div>
+</div>
