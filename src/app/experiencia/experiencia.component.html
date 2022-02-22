@@ -4,12 +4,14 @@
     </div>
     <div class="cd-timeline-content">
         <div class="content-box">
-            <div class="date">{{item.anio}}</div>
-            <div class="name">{{item.centroTrabajo}}</div>
-            <div class="category">{{item.puesto}}</div>
-            <p>
-                {{item.descripcion}}
+            <div class="date">{{item.anio}} </div>
+            <div class="name"><h3>{{item.centroTrabajo}}</h3></div>
+            <div class="category"><h4 style="display: inline-block;">Cargo:</h4> {{item.puesto | uppercase}}</div>
+            <p *ngFor="let descripcion of item.descripcion" style="display: block;">
+                {{descripcion}}
             </p>
+
+            <h3>Tecnologias</h3>
             <p>
                 {{item.tecnologia}}
             </p>
