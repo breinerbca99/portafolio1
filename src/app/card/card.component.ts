@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Proyecto } from '../models/proyecto';
 
 @Component({
@@ -11,11 +12,15 @@ export class CardComponent implements OnInit {
   @Input() proyecto : Proyecto;
   @Input() orden : String;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   
 
   ngOnInit(): void {
+  }
+
+  verProducto(i: String): void {
+    this.router.navigate(['/portafolio', i]);
   }
 
 }

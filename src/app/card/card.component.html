@@ -3,7 +3,7 @@
     <a href="#popup-{{orden}}" class="has-popup"><img src="{{proyecto.imagen}}" style="height: 200px;" alt="" /></a>
   </div>
   <div class="content-box">
-    <div class="category">{{proyecto.nombre}}aaaa</div>
+    <div class="category">{{proyecto.nombre}}</div>
     <a href="#popup-{{orden}}" class="name has-popup">{{proyecto.lengua}}</a>
     <p>
       {{proyecto.descripcion}}
@@ -20,7 +20,7 @@
           <p>
             {{proyecto.descripcion}}
           </p>
-          <a href="#" class="btn btn_animated"><span class="circle">View Project</span>
+          <a class="btn btn_animated" (click)="verProducto(orden)"><span class="circle">View Project</span>
           </a>
       </div>
     </div>
