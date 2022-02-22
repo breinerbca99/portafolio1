@@ -10,6 +10,9 @@ export class CardsComponent implements OnInit {
 
   constructor() { }
 
+
+  clases:any [] = ['f-mockup','f-graphic','f-icons','f-mockup','f-graphic','f-icons'];
+
   proyectos: Proyecto[] = [
     {
       lengua: 'Java',
