@@ -1,29 +1,33 @@
 <div>
   <div class="image">
-    <a href="#popup-1" class="has-popup"><img src="{{proyecto.imagen}}" style="height: 200px;" alt="" /></a>
+    <a href="#popup-{{orden}}" class="has-popup"><img src="{{proyecto.imagen}}" style="height: 200px;" alt="" /></a>
   </div>
   <div class="content-box">
-    <div class="category">{{proyecto.nombre}}</div>
-    <a href="#popup-1" class="name has-popup">{{proyecto.descripcion}}</a>
+    <div class="category">{{proyecto.nombre}}aaaa</div>
+    <a href="#popup-{{orden}}" class="name has-popup">{{proyecto.lengua}}</a>
     <p>
-      Here’s a new b-cards mock-up with several business cards...
+      {{proyecto.descripcion}}
     </p>
   </div>
-  <div id="popup-1" class="popup-box mfp-fade mfp-hide">
+  <div id="popup-{{orden}}" class="popup-box mfp-fade mfp-hide">
     <div class="content">
       <div class="image">
-        <img src="../assets/imagenes/works/adidas/adidas1.png"  alt="">
+        <img src="{{proyecto.imagen}}"  alt="">
       </div>
       <div class="desc">
-        <div class="category">Mockups</div>
-        <h4>Realistic Business Cards MockUp</h4>
-        <p>
-          Here’s a new b-cards mock-up with several business cards scattered across the scene. The PSD file
-          allows you
-          to easily. Here’s a new b-cards mock-up with several business cards scattered across the scene.
-        </p>
-        <a href="#" class="btn btn_animated"><span class="circle">View Project</span></a>
+        <div class="category">{{proyecto.nombre}}</div>
+        <h4>{{proyecto.lengua}}</h4>
+          <p>
+            {{proyecto.descripcion}}
+          </p>
+          <a href="#" class="btn btn_animated"><span class="circle">View Project</span>
+          </a>
       </div>
     </div>
   </div>
 </div>
+
+
+
+
+

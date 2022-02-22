@@ -9,6 +9,7 @@ import { Proyecto } from '../models/proyecto';
 export class CardComponent implements OnInit {
 
   @Input() proyecto : Proyecto;
+  @Input() orden : String;
 
   constructor() { }
 
