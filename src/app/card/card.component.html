@@ -1,18 +1,18 @@
 <div>
   <div class="image">
-    <a href="#popup-1" class="has-popup"><img src="../assets/imagenes/works/adidas/adidas1.png" alt="" /></a>
+    <a href="#popup-1" class="has-popup"><img src="{{proyecto.imagen}}" style="height: 200px;" alt="" /></a>
   </div>
   <div class="content-box">
-    <div class="category">Mockups</div>
-    <a href="#popup-1" class="name has-popup">Realistic Business Cards MockUp</a>
+    <div class="category">{{proyecto.nombre}}</div>
+    <a href="#popup-1" class="name has-popup">{{proyecto.lengua}}</a>
     <p>
-      Here’s a new b-cards mock-up with several business cards...
+      {{proyecto.descripcion}}
     </p>
   </div>
   <div id="popup-1" class="popup-box mfp-fade mfp-hide">
     <div class="content">
       <div class="image">
-        <img src="../assets/imagenes/works/adidas/adidas1.png" alt="">
+        <img src="../assets/imagenes/works/adidas/adidas1.png"  alt="">
       </div>
       <div class="desc">
         <div class="category">Mockups</div>

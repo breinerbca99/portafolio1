@@ -41,7 +41,7 @@ export class ExperienciasComponent implements OnInit {
     descripcion: ['• Realizacion de aplicación desde angular desde cero', '• Generacion de components y modulos y routers para angular',
       '• Generacion de estilos y maquetacion de vistas html','• Consumo de servicios backend en spring','• Modificacion de servicios en spring'],
     tecnologia: 'Java 8 (Servicios Rest, microservicios), Oracle, Angular 5,8 (Angular Material, Bootstrap), Tomcat (8,9), JavaScript, Css3 y HTML.',
-    anio: 2021
+    anio: 2020
   }];
 
   educaciones: Experiencia[] = [{
