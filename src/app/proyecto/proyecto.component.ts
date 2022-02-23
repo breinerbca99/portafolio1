@@ -15,11 +15,11 @@ export class ProyectoComponent implements OnInit {
       lengua: 'Java',
       nombre: 'Proyecto Adidas',
       descripcion: 'Este es un software réplica de la página web Adidas en la cual tendremos las opciones del cliente las cuales son comprar, registrarse y loguearse, además de las del administrador como poder ver nuestros clientes sus productos sus facturas.',
-      imagen: 'assets/imagenes/adidas/adidas1.png',
+      imagen: 'assets/imagenes/works/adidas/adidas1.png',
       tecnologias:
         [
           'Spring Boot',
-          'Angular (html5, css3, js)',
+          'Angular',
           'MySql',
           'Bootstrap'
         ],
