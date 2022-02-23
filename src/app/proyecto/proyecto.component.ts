@@ -15,7 +15,7 @@ export class ProyectoComponent implements OnInit {
       lengua: 'Java',
       nombre: 'Proyecto Adidas',
       descripcion: 'Este es un software réplica de la página web Adidas en la cual tendremos las opciones del cliente las cuales son comprar, registrarse y loguearse, además de las del administrador como poder ver nuestros clientes sus productos sus facturas.',
-      imagen: 'assets/imagenes/works/adidas/adidas1.png',
+      imagen: 'assets/imagenes/works/adidas/adidas1P.png',
       tecnologias:
         [
           'Spring Boot',
@@ -51,7 +51,7 @@ export class ProyectoComponent implements OnInit {
       lengua: 'Java',
       nombre: 'Carrito de compra',
       descripcion: 'Este proyecto cuanto con un stock de productos en los cuales distintas personas podrán comprar sus productos y pagarlos con tarjeta o PayPal',
-      imagen: 'assets/imagenes/carrito/1.png',
+      imagen: 'assets/imagenes/works/carrito/1P.png',
       tecnologias:
         [
           'JavaEE ',
@@ -87,12 +87,13 @@ export class ProyectoComponent implements OnInit {
       lengua: 'JavaScript',
       nombre: 'Proyecto Ingresos vs Egresos',
       descripcion: 'Este proyecto nos mostrara el total de dinero que podremos gastar o recibir y en qué cosa lo gastamos o recibimos.',
-      imagen: 'assets/imagenes/works/ingreso/ingreso1.png',
+      imagen: 'assets/imagenes/works/ingreso/ingreso1P.png',
       tecnologias:
         [
-          'Angular (html5,css3,js) ',
+          'Angular',
           'BootStrap',
           'Firebase',
+          'Redux'
         ],
       vistas:
         [
@@ -122,14 +123,14 @@ export class ProyectoComponent implements OnInit {
       lengua: 'JavaScript',
       nombre: 'Proyecto Hospital',
       descripcion: 'Este proyecto podrá mantener un crud completo de usuarios, doctores, hospitales y pacientes además de poder asignar y manejar Roles del sistema',
-      imagen: 'assets/imagenes/works/hospital/hospital1.png',
+      imagen: 'assets/imagenes/works/hospital/hospital1P.png',
       tecnologias:
         [
-          'Angular (html5,css3,js) ',
+          'Angular',
           'Node js',
           'Mongo db',
           'BootStrap',
-          'Google Sign in',
+          'Google Sign',
         ],
       vistas:
         [
@@ -159,11 +160,11 @@ export class ProyectoComponent implements OnInit {
       lengua: 'Java',
       nombre: 'Proyecto Aula virtual',
       descripcion: 'Este proyecto podrá manejar un crud completo de un alumno, curso, examen, además de poder asignar respuestas, alumnos, cursos a un alumno',
-      imagen: 'assets/imagenes/examen/examen1.png',
+      imagen: 'assets/imagenes/works/examen/examen1P.png',
       tecnologias:
         [
-          'Spring (Microservicios, Feign, Zuul, Ribbon)',
-          'Angular (html5, css3, js)',
+          'Spring',
+          'Angular',
           'MySql',
           'Mongo db',
           'PostgreSQL',
@@ -197,10 +198,10 @@ export class ProyectoComponent implements OnInit {
       lengua: 'JavaScript',
       nombre: 'Proyecto Spotify',
       descripcion: 'Este proyecto permite manejar un crud completo de los usuarios, artistas, albúmenes, canciones donde un usuario podrá guardar a sus artistas favoritos y albúmenes y las canciones que más le gusta',
-      imagen: 'assets/imagenes/works/spotify/spotify1.png',
+      imagen: 'assets/imagenes/works/spotify/spotify1P.png',
       tecnologias:
         [
-          'Angular (html5, css3, js)',
+          'Angular',
           'Node js',
           'Mongo db',
           'BootStrap',
