@@ -5,13 +5,13 @@
     <div class="cd-timeline-content">
         <div class="content-box">
             <div class="date">{{item.anio}} </div>
-            <div class="name"><h3>{{item.centroTrabajo}}</h3></div>
-            <div class="category"><h4 style="display: inline-block;">Cargo:</h4> {{item.puesto | uppercase}}</div>
+            <div class="name"  style="color: #304fff;"><h3>{{item.centroTrabajo}}</h3></div>
+            <div class="category">{{item.puesto | uppercase}}</div>
             <p *ngFor="let descripcion of item.descripcion" style="display: block;">
                 {{descripcion}}
             </p>
 
-            <h3>Tecnologias</h3>
+            <h4 style="color: #304fff;margin-top: 4px;">Tecnologias</h4>
             <p>
                 {{item.tecnologia}}
             </p>
