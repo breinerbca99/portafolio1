@@ -6,12 +6,12 @@
         <div class="content-box">
             <div class="date">{{item.anio}} </div>
             <div class="name"  style="color: #304fff;"><h3>{{item.centroTrabajo}}</h3></div>
-            <div class="category">{{item.puesto | uppercase}}</div>
+            <div class="category" style="color: #304fff;">{{item.puesto | uppercase}}</div>
             <p *ngFor="let descripcion of item.descripcion" style="display: block;">
                 {{descripcion}}
             </p>
 
-            <h4 style="color: #304fff;margin-top: 4px;">Tecnologias</h4>
+            <h5 style="color: #304fff;margin-top: 20px;">Tecnologias</h5>
             <p>
                 {{item.tecnologia}}
             </p>
