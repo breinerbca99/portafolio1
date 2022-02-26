@@ -25,7 +25,7 @@ export class ExperienciasComponent implements OnInit {
     descripcion: ['• Participacion en el modelamiento relacional de base de datos del negocio', '• Generacion de servicios Rest basados en Java y Spring Boot',
       '• Generacion de Authenticacion de usuarios basado en roles con Spring Security y jwt.', '• Generacion de documentacion de los servicios basado en Swagger',
       '• Generacion de componentes en Angular y servicios para el lado del front', '• Coordinaciones de los requisites funcionales y requerimientos del Cliente'],
-    tecnologia: 'Jenkins, ASO, APX, SonarQube',
+    tecnologia: 'Java 8 (Servicios Rest, microservicios), Oracle, Angular 5,8 (Angular Material, Bootstrap), Tomcat (8,9), JavaScript, Css3 y HTML.',
     anio: 2021
   }, {
     centroTrabajo: 'INTEGRO S.A.C – LIMA - PERU',
