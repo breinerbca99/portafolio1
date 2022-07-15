@@ -12,6 +12,27 @@ export class ExperienciasComponent implements OnInit {
 
   experiencias: Experiencia[] = [{
     centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
+    proyecto: 'Proyecto Onboarding Adquirencia BBVA, EGLOBAL Y OPENPAY',
+    puesto: 'Analista Programador',
+    descripcion: ['• Generación de servicios web basados en Java con Spring', '• Generación y análisis de scripts en tablas de Oracle',
+      '• Migracion de Sql Server a Oracle', '• Consumo de servicios SSL y generacion de certificados en Java',
+      '• Manejo de integración continua BitBucket,Jenkins, Sonarqube',],
+    tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Angular,Lit Element, Cells (Framework Frontend BBVA), Css3, HTML5,
+    Docker, Oracle, JPA, JSP, Cucumber, Jboss, Tomcat.`,
+    anio: 2021
+  },{
+    centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
+    proyecto: 'Seguros Rimac BBVA Y RIMAC',
+    puesto: 'Analista Programador',
+    descripcion: ['• Generación de servicios web basados en Java con Spring', '• Generación y análisis de scripts en tablas de Oracle',
+      '• Migracion de Sql Server a Oracle', '• Consumo de servicios SSL y generacion de certificados en Java',
+      '• Manejo de integración continua BitBucket,Jenkins, Sonarqube',],
+    tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Angular,Lit Element, Cells (Framework Frontend BBVA), Css3, HTML5,
+    Docker, Oracle, JPA, JSP, Cucumber, Jboss, Tomcat.`,
+    anio: 2021
+  },{
+    centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
+    proyecto: 'Canjes de puntos BBVA Y DESPEGAR',
     puesto: 'Analista Programador',
     descripcion: ['• Generación de servicios web basados en Java con Spring', '• Generación y análisis de scripts en tablas de Oracle',
       '• Migracion de Sql Server a Oracle', '• Consumo de servicios SSL y generacion de certificados en Java',
@@ -20,7 +41,8 @@ export class ExperienciasComponent implements OnInit {
     Docker, Oracle, JPA, JSP, Cucumber, Jboss, Tomcat.`,
     anio: 2021
   }, {
-    centroTrabajo: 'PROYECTO PMTD – LIMA - PERU ',
+    centroTrabajo: 'EJERCITO DEL PERU ',
+    proyecto: 'PROYECTO PMTD – LIMA - PERU ',
     puesto: 'Analista Programador Full Stack',
     descripcion: ['• Participacion en el modelamiento relacional de base de datos del negocio', '• Generacion de servicios Rest basados en Java y Spring Boot',
       '• Generacion de Authenticacion de usuarios basado en roles con Spring Security y jwt.', '• Generacion de documentacion de los servicios basado en Swagger',
@@ -29,6 +51,7 @@ export class ExperienciasComponent implements OnInit {
     anio: 2021
   }, {
     centroTrabajo: 'INTEGRO S.A.C – LIMA - PERU',
+    proyecto: 'PROYECTO PMTD – LIMA - PERU ',
     puesto: 'Analista Programador',
     descripcion: ['• Generacion de componentes en Angular y servicios para el lado del front', '• Maquetacion de vistas front y estilos',
       '• Mantenimiento de sistemas front-end y mejoras a los estilos de angular Material',
@@ -37,39 +60,12 @@ export class ExperienciasComponent implements OnInit {
     anio: 2020
   }, {
     centroTrabajo: 'Open TI S.A.C – LIMA - PERU',
+    proyecto: 'PROYECTO PMTD – LIMA - PERU ',
     puesto: 'Analista Programador Full Stack',
     descripcion: ['• Realizacion de aplicación desde angular desde cero', '• Generacion de components y modulos y routers para angular',
       '• Generacion de estilos y maquetacion de vistas html', '• Consumo de servicios backend en spring', '• Modificacion de servicios en spring'],
     tecnologia: 'Java 8 (Servicios Rest, microservicios), Oracle, Angular 5,8 (Angular Material, Bootstrap), Tomcat (8,9), JavaScript, Css3 y HTML.',
     anio: 2020
-  }];
-
-  /*   educaciones: Experiencia[] = [{
-      centroTrabajo: 'Universidad San Marcos',
-      puesto: '2017 - 2021',
-      descripcion: ['Soy un estudiante de la universidad san Marcos '],
-      tecnologia: 'Jenkins, ASO, APX, SonarQube',
-      anio: 2021
-    }, {
-      centroTrabajo: 'Centro de idiomas San Marcos',
-      puesto: 'Java Developer',
-      descripcion: ['Consumo de servicios APX para la comunicación con Despegar'],
-      tecnologia: 'Spring, RxJava, JBOSS, Jenkins, ASO, APX, SonarQube',
-      anio: 2021
-    }, {
-      centroTrabajo: 'Colegio Saco Oliveros',
-      puesto: 'Java Developer',
-      descripcion: ['Equipo Realavility Cotiza tipo de cambio'],
-      tecnologia: 'Spring, Drools, Kibana, SQL Server, Oracle',
-      anio: 2021
-    }]; */
-
-  educaciones: Experiencia[] = [{
-    centroTrabajo: 'Universidad San Marcos',
-    puesto: '2017 - 2021',
-    descripcion: ['Soy un estudiante de la universidad san Marcos '],
-    tecnologia: 'Jenkins, ASO, APX, SonarQube',
-    anio: 2021
   }];
 
   constructor() { }
