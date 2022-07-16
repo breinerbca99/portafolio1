@@ -51,7 +51,7 @@ export class ExperienciasComponent implements OnInit {
     anio: 2021
   }, {
     centroTrabajo: 'INTEGRO S.A.C – LIMA - PERU',
-    proyecto: 'PROYECTO PMTD – LIMA - PERU ',
+    proyecto: 'PROYECTO NOVOFONG – LIMA - PERU ',
     puesto: 'Analista Programador',
     descripcion: ['• Generacion de componentes en Angular y servicios para el lado del front', '• Maquetacion de vistas front y estilos',
       '• Mantenimiento de sistemas front-end y mejoras a los estilos de angular Material',
@@ -60,7 +60,7 @@ export class ExperienciasComponent implements OnInit {
     anio: 2020
   }, {
     centroTrabajo: 'Open TI S.A.C – LIMA - PERU',
-    proyecto: 'PROYECTO PMTD – LIMA - PERU ',
+    proyecto: 'PROYECTO CLINICA BRALLIN – LIMA - PERU ',
     puesto: 'Analista Programador Full Stack',
     descripcion: ['• Realizacion de aplicación desde angular desde cero', '• Generacion de components y modulos y routers para angular',
       '• Generacion de estilos y maquetacion de vistas html', '• Consumo de servicios backend en spring', '• Modificacion de servicios en spring'],

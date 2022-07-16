@@ -21,8 +21,9 @@
             {{servicio.descripcion}}
         </p>
         <ul>
-            <li>{{servicio.descripcion}}</li>
-            <li>{{servicio.descripcion}}</li>
+            <li *ngFor="let punto of servicio.puntos">
+                {{punto}}
+            </li>
         </ul>
     </div>
 </div>
