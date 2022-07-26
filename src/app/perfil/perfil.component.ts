@@ -49,7 +49,7 @@ export class PerfilComponent implements OnInit {
     descripcion: 'Integracion de proyectos con base de datos Sql y NoSql',
     puntos: ['Control de acceso, basado en roles','Desnormalizacion del negocio en entidades de negocio','Experiencia en base de datos Sql (Oracle)',
         'Experiencia en base de datos noSql (MongoDb)'],
-    img:'assets/imagenes/lenguajes/base1.png',
+    img:'assets/imagenes/lenguajes/base.png',
     // icono:'../assets/imagenes/skills/database.png',
     icono:'fas fa-database fa-2x text-white',
     estilo:'width: 30px !important; height: 30px;margin-top: -4px;'
