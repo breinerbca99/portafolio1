@@ -12,7 +12,7 @@ export class ExperienciasComponent implements OnInit {
 
   experiencias: Experiencia[] = [{
     centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
-    proyecto: 'Proyecto Onboarding Adquirencia BBVA, EGLOBAL Y OPENPAY',
+    proyecto: 'Proyecto Single Sign On hacia Openpay desde Netcash Web BBVA',
     puesto: 'Analista Programador',
     descripcion: ['• Generación de servicios web basados en Java con Spring', '• Generación y análisis de scripts en tablas de Oracle',
       '• Migracion de Sql Server a Oracle', '• Consumo de servicios SSL y generacion de certificados en Java',
@@ -20,7 +20,17 @@ export class ExperienciasComponent implements OnInit {
     tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Angular,Lit Element, Cells (Framework Frontend BBVA), Css3, HTML5,
     Docker, Oracle, JPA, JSP, Cucumber, Jboss, Tomcat.`,
     anio: 2021
-  },{
+  }, {
+    centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
+    proyecto: 'Proyecto Onboarding Adquirencia BBVA Y EGLOBAL',
+    puesto: 'Analista Programador',
+    descripcion: ['• Generación de servicios web basados en Java con Spring', '• Generación y análisis de scripts en tablas de Oracle',
+      '• Migracion de Sql Server a Oracle', '• Consumo de servicios SSL y generacion de certificados en Java',
+      '• Manejo de integración continua BitBucket,Jenkins, Sonarqube',],
+    tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Angular,Lit Element, Cells (Framework Frontend BBVA), Css3, HTML5,
+    Docker, Oracle, JPA, JSP, Cucumber, Jboss, Tomcat.`,
+    anio: 2021
+  }, {
     centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
     proyecto: 'Seguros Rimac BBVA Y RIMAC',
     puesto: 'Analista Programador',
@@ -30,7 +40,7 @@ export class ExperienciasComponent implements OnInit {
     tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Angular,Lit Element, Cells (Framework Frontend BBVA), Css3, HTML5,
     Docker, Oracle, JPA, JSP, Cucumber, Jboss, Tomcat.`,
     anio: 2021
-  },{
+  }, {
     centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
     proyecto: 'Canjes de puntos BBVA Y DESPEGAR',
     puesto: 'Analista Programador',
