@@ -38,8 +38,9 @@ export class PerfilComponent implements OnInit {
   }, {
     nombre: 'Mobil',
     descripcion: 'Integracion de proyectos con base de datos Sql y NoSql',
-    puntos: ['Control de acceso, basado en roles','Desnormalizacion del negocio en entidades de negocio','Experiencia en base de datos Sql (Oracle)',
-        'Experiencia en base de datos noSql (MongoDb)'],
+    puntos: ['Consumo de servicios con retrofit 2.0',
+        'Almacenar datos en room','Creacion de vistas con XML',
+        'Patron MVVM'],
     img:'assets/imagenes/lenguajes/mobil.png',
     // icono:'../assets/imagenes/skills/mobile.svg',
     icono:'fas fa-mobile-alt fa-2x text-white',
@@ -56,8 +57,8 @@ export class PerfilComponent implements OnInit {
   },{
     nombre: 'Devops',
     descripcion: 'Integracion de proyectos con base de datos Sql y NoSql',
-    puntos: ['Control de acceso, basado en roles','Desnormalizacion del negocio en entidades de negocio','Experiencia en base de datos Sql (Oracle)',
-        'Experiencia en base de datos noSql (MongoDb)'],
+    puntos: ['Dockerizacion de imagenes de jars de java','comunicacion entre una imagen front y una imagen back','Conocimiento de Kubernetes full Stack',
+        'Experiencia en uso de Sonarquebe'],
     img:'assets/imagenes/lenguajes/devops.png',
     icono:'fab fa-jenkins fa-2x text-white',
     // icono:'../assets/imagenes/skills/database.png',
