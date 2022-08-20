@@ -22,7 +22,7 @@ export class ExperienciasComponent implements OnInit {
       '• Manejo de integración continua BitBucket,Jenkins, Sonarqube',],
     tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Angular,Lit Element, Cells (Framework Frontend BBVA), Css3, HTML5,
     Docker, Oracle, JPA, JSP, Cucumber, Jboss, Tomcat.`,
-    anio: 2021
+    anio: 2022
   }, {
     centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
     proyecto: 'Proyecto Onboarding Adquirencia BBVA Y EGLOBAL',
@@ -35,7 +35,7 @@ export class ExperienciasComponent implements OnInit {
       '• Manejo de integración continua BitBucket,Jenkins, Sonarqube',],
     tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Angular,Lit Element, Cells (Framework Frontend BBVA), Css3, HTML5,
     Docker, Oracle, JPA, JSP, Cucumber, Jboss, Tomcat.`,
-    anio: 2021
+    anio: 2022
   }, {
     centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
     proyecto: 'Seguros Rimac BBVA Y RIMAC',
