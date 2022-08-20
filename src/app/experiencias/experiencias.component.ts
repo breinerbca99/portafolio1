@@ -16,12 +16,12 @@ export class ExperienciasComponent implements OnInit {
     puesto: 'Analista Programador',
     descripcion: [
       '• Generación de servicios web basados en Java con Spring', 
-      '• Generación y análisis de scripts en tablas de Oracle',
-      '• Migracion de Sql Server a Oracle', 
-      '• Consumo de servicios SSL y generacion de certificados en Java',
+      '• Integracion con servicios Api Rest y Autenticacion de OpenPay',
+      '• Generacion de 5 transacciones entre BBVA y OpenPay',
+      '• Conexion con conexion con MTLS', 
+      '• Test Unitarios con Mockito y Junit 5',
       '• Manejo de integración continua BitBucket,Jenkins, Sonarqube',],
-    tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Angular,Lit Element, Cells (Framework Frontend BBVA), Css3, HTML5,
-    Docker, Oracle, JPA, JSP, Cucumber, Jboss, Tomcat.`,
+    tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Oracle, Cucumber,  Servicios Aso (Servicios BBVA), Jenkins, Docker.`,
     anio: 2022
   }, {
     centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
@@ -32,9 +32,9 @@ export class ExperienciasComponent implements OnInit {
       '• Generación de transacion para la validacion de una persona adquiriente',
       '• Generacion de proceso batch etl de Oracle a Host', 
       '• Creacion de programa de automatizacion de pruebas para backend y front',
+      '• Test Unitarios con Mockito y Junit 5',
       '• Manejo de integración continua BitBucket,Jenkins, Sonarqube',],
-    tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Angular,Lit Element, Cells (Framework Frontend BBVA), Css3, HTML5,
-    Docker, Oracle, JPA, JSP, Cucumber, Jboss, Tomcat.`,
+    tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Oracle, Cucumber,  Servicios Aso (Servicios BBVA), Jenkins, Docker.`,
     anio: 2022
   }, {
     centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
