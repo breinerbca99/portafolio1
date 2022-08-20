@@ -18,7 +18,6 @@ export class ExperienciasComponent implements OnInit {
       '• Generación de servicios web basados en Java con Spring', 
       '• Integracion con servicios Api Rest y Autenticacion de OpenPay',
       '• Generacion de 5 transacciones entre BBVA y OpenPay',
-      '• Conexion con conexion con MTLS', 
       '• Test Unitarios con Mockito y Junit 5',
       '• Manejo de integración continua BitBucket,Jenkins, Sonarqube',],
     tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Oracle, Cucumber,  Servicios Aso (Servicios BBVA), Jenkins, Docker.`,
