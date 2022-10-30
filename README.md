@@ -29,3 +29,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## DEPENDENCIAS PARA EL BUILD
 ng add angular-cli-ghpages
 ng deploy --base-href=https://breinerbca99.github.io/Mi-Portafolio/
+ng deploy --base-href=https://breinerbca99.github.io/portafolio/
