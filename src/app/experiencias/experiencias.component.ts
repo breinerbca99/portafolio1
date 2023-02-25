@@ -11,6 +11,31 @@ export class ExperienciasComponent implements OnInit {
   @Input() entrada: boolean;
 
   experiencias: Experiencia[] = [{
+    centroTrabajo: 'BBVA PERU - LIMA - PERU',
+    proyecto: 'Mercurio Loyalty',
+    puesto: 'Software Associate Solutions',
+    descripcion: [
+      '• Generación de servicios web basados en Java con Spring', 
+      '• Generacion de transaccion de consulta,canje y anulacion de puntos',
+      '• Generacion de 3 transacciones entre BBVA, Eglobal y Everilion',
+      '• Test Unitarios con Mockito y Junit 5',
+      '• Manejo de integración continua BitBucket,Jenkins, Sonarqube',],
+    tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Oracle, Cucumber,  Servicios Aso (Servicios BBVA), Jenkins, Docker.`,
+    anio: 2023
+  },{
+    centroTrabajo: 'BBVA PERU - LIMA - PERU',
+    proyecto: 'Proyecto Single Sign On hacia Openpay desde Netcash Web BBVA',
+    puesto: 'Software Associate Solutions',
+    descripcion: [
+      '• Despliegue de apis productivas liberadas', 
+      '• Revision de intercambio de certificado MTLS entre BBVA y OpenPay',
+      '• Despliegue de 5 transacciones entre BBVA y OpenPay',
+      '• Gestion tecnica entre Netcash BBVA y OpenPay',
+      '• Despliegue de proceso desvinculacion Netcash y OpenPay online basado en eventos ',
+      '• Despliegue de proceso batch para desvinculacion Netcash y OpenPay',],
+    tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Oracle, Cucumber,  Servicios Aso (Servicios BBVA), Jenkins, Docker.`,
+    anio: 2023
+  },{
     centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
     proyecto: 'Proyecto Single Sign On hacia Openpay desde Netcash Web BBVA',
     puesto: 'Analista Programador',
