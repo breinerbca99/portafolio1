@@ -27,16 +27,16 @@ export class ExperienciasComponent implements OnInit {
     proyecto: 'Proyecto Single Sign On hacia Openpay desde Netcash Web BBVA',
     puesto: 'Software Associate Solutions',
     descripcion: [
-      '• Despliegue de apis productivas liberadas', 
-      '• Revision de intercambio de certificado MTLS entre BBVA y OpenPay',
-      '• Despliegue de 5 transacciones entre BBVA y OpenPay',
-      '• Gestion tecnica entre Netcash BBVA y OpenPay',
-      '• Despliegue de proceso desvinculacion Netcash y OpenPay online basado en eventos ',
-      '• Despliegue de proceso batch para desvinculacion Netcash y OpenPay',],
+      '• Gestión de despliegue de APIs liberadas productivas', 
+      '• Revisión de intercambio de certificado MTLS entre BBVA y OpenPay',
+      '• Despliegue de 5 transacciones productivas entre BBVA y OpenPay',
+      '• Gestión técnica entre Net cash BBVA y OpenPay',
+      '• Despliegue de proceso desvinculación Net cash y OpenPay online basado en eventos',
+      '• Despliegue de proceso batch para desvinculación Net cash y OpenPay',],
     tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Oracle, Cucumber,  Servicios Aso (Servicios BBVA), Jenkins, Docker.`,
     anio: 2023
   },{
-    centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
+    centroTrabajo: 'STEFANINI - LIMA - PERU',
     proyecto: 'Proyecto Single Sign On hacia Openpay desde Netcash Web BBVA',
     puesto: 'Analista Programador',
     descripcion: [
@@ -48,7 +48,7 @@ export class ExperienciasComponent implements OnInit {
     tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Oracle, Cucumber,  Servicios Aso (Servicios BBVA), Jenkins, Docker.`,
     anio: 2022
   }, {
-    centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
+    centroTrabajo: 'STEFANINI - LIMA - PERU',
     proyecto: 'Proyecto Onboarding Adquirencia BBVA Y EGLOBAL',
     puesto: 'Analista Programador',
     descripcion: [
@@ -61,7 +61,7 @@ export class ExperienciasComponent implements OnInit {
     tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Oracle, Cucumber,  Servicios Aso (Servicios BBVA), Jenkins, Docker.`,
     anio: 2022
   }, {
-    centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
+    centroTrabajo: 'Inveritas Global Holdings Perú S.A. - LIMA - PERU',
     proyecto: 'Seguros Rimac BBVA Y RIMAC',
     puesto: 'Analista Programador',
     descripcion: [
@@ -75,7 +75,7 @@ export class ExperienciasComponent implements OnInit {
     tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Servicios Aso (Servicios BBVA), Jenkins, Docker.`,
     anio: 2021
   }, {
-    centroTrabajo: 'STEFANINI - LIMA - PERU (BBVA)',
+    centroTrabajo: 'Inveritas Global Holdings Perú S.A. - LIMA - PERU',
     proyecto: 'Canjes de puntos BBVA Y DESPEGAR',
     puesto: 'Analista Programador',
     descripcion: [
