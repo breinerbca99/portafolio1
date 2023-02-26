@@ -10,5 +10,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Build
 ### DEPENDENCIAS PARA EL BUILD
+* ng build
 * ng add angular-cli-ghpages
 * ng deploy --base-href=https://breinerbca99.github.io/portafolio/
