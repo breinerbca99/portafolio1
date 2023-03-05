@@ -1,6 +1,9 @@
 <div class="row box-items">
-    <div class="col col-sm-12 col-md-6 col-lg-4 box-item animated"  *ngFor="let proyecto of proyectos; index as i;"
+    <div class="col col-sm-12 col-md-6 col-lg-4 box-item animated"  
+          *ngFor="let proyecto of proyectos; index as i;"
           ngClass="{{clases[i]}}">
+
+          <!-- ngClass="proyecto.tipo"> -->
 
         <app-card [proyecto]="proyecto" [orden]="i"></app-card>
 
