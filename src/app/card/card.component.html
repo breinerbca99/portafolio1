@@ -19,12 +19,12 @@
         <img src="{{proyecto.imagen}}"  alt="">
       </div>
       <div class="desc">
-        <div class="category">{{proyecto.nombre}}</div>
-        <h4>{{proyecto.lengua}}</h4>
+        <div class="category" style="font-weight: bold;font-size: 25px;">{{proyecto.nombre}}</div>
+        <h4 style="font-weight: bold;">{{proyecto.lengua}}</h4>
           <p>
             {{proyecto.descripcion}}
           </p>
-          <a class="btn btn_animated" (click)="verProducto(orden)"><span class="circle">View Project</span>
+          <a class="btn btn_animated" (click)="verProducto(orden)" style="border: 1px solid black;"><span class="circle">Ver Proyecto</span>
           </a>
       </div>
     </div>
