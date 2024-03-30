@@ -9,8 +9,8 @@ import { Proyecto } from '../models/proyecto';
 })
 export class CardComponent implements OnInit {
 
-  @Input() proyecto : Proyecto;
-  @Input() orden : String;
+  @Input() proyecto : Proyecto = new Proyecto();
+  @Input() orden : String = "";
 
   constructor(private router: Router) { }
 

@@ -1,5 +1,5 @@
 export class Vista {
-    nombre: String;
-    descripcion: String;
-    img: String;
+    nombre: string = "";
+    descripcion: string = "";
+    img: string = "";
 }

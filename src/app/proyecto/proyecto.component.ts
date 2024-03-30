@@ -9,7 +9,7 @@ import { Proyecto } from '../models/proyecto';
 })
 export class ProyectoComponent implements OnInit {
 
-  posicion: number;
+  posicion: number = 0;
   proyectos: Proyecto[] = [
     {
       tipo: 'frontend',
@@ -244,9 +244,7 @@ export class ProyectoComponent implements OnInit {
     },
   ];
 
-
-
-  proyectoBuscado: Proyecto;
+  proyectoBuscado: Proyecto = new Proyecto();
 
   constructor(private activatedRoute: ActivatedRoute) {
     /* Esto regresa un observador */

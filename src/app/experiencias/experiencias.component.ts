@@ -8,8 +8,9 @@ import { Experiencia } from '../models/experencia';
 })
 export class ExperienciasComponent implements OnInit {
 
-  @Input() entrada: boolean;
+  @Input() entrada: boolean = false;
 
+  educaciones: any[] = []; // Definición de la propiedad educaciones
   experiencias: Experiencia[] = [{
     centroTrabajo: 'BBVA PERU - LIMA - PERU',
     proyecto: 'Mercurio Loyalty',

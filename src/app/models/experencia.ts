@@ -1,8 +1,8 @@
 export class Experiencia {
-    centroTrabajo: String;
-    proyecto : String;
-    puesto: String;
-    descripcion: Array<String>;
-    tecnologia: String;
-    anio: number;
+    centroTrabajo: string = "";
+    proyecto : string = "";
+    puesto: string = "";
+    descripcion: Array<string> = [];
+    tecnologia: string = "";
+    anio: number = 0;
 }

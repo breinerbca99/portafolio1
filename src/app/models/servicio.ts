@@ -1,8 +1,8 @@
 export class Servicio {
-    nombre: String;
-    descripcion: String;
-    puntos: String[];
-    img: String;
-    icono: String;
-    estilo: String;
+    nombre: string = "";
+    descripcion: string = "";
+    puntos: string[] = [];
+    img: string = "";
+    icono: string = "";
+    estilo: string = "";
 }
