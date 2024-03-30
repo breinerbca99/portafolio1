@@ -27,6 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 --------------------------------------------------------------------------------
 # Portafolio
+https://github.com/breinerbca99/portafolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
@@ -38,7 +39,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Build
 ### DEPENDENCIAS PARA EL BUILD GITHUB PAGES
+
+dist/[PROJECTNAME] → "outputPath": "dist/portafolio" (Verificar el nombre coincida con el nombre del proyecto de github)
+
+
 * ng build
+Instala la depedencia, para hacer el deploy a github pages
 * ng add angular-cli-ghpages
 * ng deploy --base-href=https://breinerbca99.github.io/portafolio/
 
