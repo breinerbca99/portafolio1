@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+--------------------------------------------------------------------------------
+# Portafolio
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
+
+## Development server
+
+* http://localhost:4200/
+* https://breinerbca99.github.io/portafolio/
+* https://mi-portafolio-breinerbca99.vercel.app/
+
+## Build
+### DEPENDENCIAS PARA EL BUILD
+* ng build
+* ng add angular-cli-ghpages
+* ng deploy --base-href=https://breinerbca99.github.io/portafolio/
