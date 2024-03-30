@@ -37,7 +37,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * https://mi-portafolio-breinerbca99.vercel.app/
 
 ## Build
-### DEPENDENCIAS PARA EL BUILD
+### DEPENDENCIAS PARA EL BUILD GITHUB PAGES
 * ng build
 * ng add angular-cli-ghpages
 * ng deploy --base-href=https://breinerbca99.github.io/portafolio/
+
+GUIA de como desplegar
+COMO SUBIR UN PROYECTO ANGULAR A GITHUB PAGES EN MENOS DE 5 MINUTOS!: https://www.youtube.com/watch?v=VtNXgiLaw1E
