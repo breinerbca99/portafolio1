@@ -83,9 +83,9 @@
                     <div class="st-bts">
 
                     </div>
-                    <div class="st-image st-image-br"><img src="assets/imagenes/breiner.jpg" alt="" /></div>
-                    <div class="st-title st-title-br">Breiner Correa</div>
-                    <div class="st-subtitle st-subtitle-br" style="font-size: 20px;">Full Stack - Developer</div>
+                    <div class="st-image st-image-br"><img src={{perfil.foto}} alt="" /></div>
+                    <div class="st-title st-title-br">{{perfil.name}}</div>
+                    <div class="st-subtitle st-subtitle-br" style="font-size: 20px;">{{perfil.lineaDeCarrera}}</div>
                     <div class="st-soc st-soc-br">
                         <!-- <a target="blank" href="https://www.facebook.com/breiner.correaatucsa.1/" class="btn_animated">
                             <span class="circle"><i class="icon ion ion-social-facebook"></i></span>
@@ -150,46 +150,40 @@
                             <div class="col col-sm-12 col-md-5 col-lg-5">
                                 <div class="info-list">
                                     <ul style="list-style: none;">                       
-                                        <li><strong><span>Trabajo:</span></strong> Full Stack Developer </li>
-                                        <li><strong><span>Ciudadania:</span></strong> Peruana</li>
-                                        <li><strong><span>Celular:</span></strong> <a href="tel:12562548456">+51 997 072
-                                                900</a></li>
-                                        <li><strong><span>E-mail:</span></strong> <a
-                                                href="mailto:smorgan@domain.com">breinerbca2015@gmail.com</a>
+                                        <li><strong><span>Trabajo:</span></strong> {{perfil.trabajo}} </li>
+                                        <li><strong><span>Ciudadania:</span></strong> {{perfil.ciudadania}} </li>
+                                        <li><strong><span>Celular:</span></strong> 
+                                            <a href={{perfil.celularDireccion}}>{{perfil.celular}}</a>
+                                        </li>
+                                        <li><strong><span>E-mail:</span></strong> 
+                                            <a href={{perfil.emailDireccion}}>{{perfil.email}}</a>
                                         </li>
                                         <li style="text-align: center;">
                                             <strong><span>Universidad:</span></strong> 
                                             <img src="assets/imagenes/unmsm.png" width="30px" height="30px" alt=""> 
-                                            <br> Universidad Nacional Mayor de San Marcos 
-                                            <br> Ingeniero de Sistemas  
+                                            <br> {{perfil.universidad}}
+                                            <br> {{perfil.profesion}}
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col col-m-12 col-t-7 col-d-7">
                                 <div class="text-box">
-                                    <p><strong>Hola! Soy Breiner Correa Atucsa</strong></p>
-                                    <!-- <p>
-                                        Soy una persona apasionada a la programacion tanto backend como frontend,con
-                                        capacitaciones constantes de nuevas tecnologias , poniendo mi mejor empeño para
-                                        que los proyectos salgan lo mejor posible
-                                    </p> -->
+                                    <p><strong>{{perfil.hola}}</strong></p>
                                     <p>
-                                        Ingeniero de Sistemas con más de 2 años de experiencia.
-                                        Conocimientos en frontend(Angular, React, LitElement, CCS3, HTML5) y backend(Java, Spring, RxJava,
-                                        Spring WebFlux, nodeJs,python); en aplicaciones para sectores de banca, medicina y sector publico
+                                        {{perfil.parrafo1}}
                                     </p>
                                     <p>
-                                        Me considero una persona apasionada por la programación tanto front como back. En constante aprendizaje y capacitación de las tecnologías más recientes.
+                                        {{perfil.parrafo2}}
                                     </p>
                                     <p>
-                                        Busco integrar equipos multidisciplinarios, donde pueda mejorar mis conocimientos en integracion y despliegue continuo, contenedores y plataformas cloud.
+                                        {{perfil.parrafo3}}
                                     </p>
                                 </div>
                                 <div class="bts">
-                                    <a href="assets/CV-Breiner Correa Atucsa.pdf" download class="btn btn_animated" 
+                                    <a href={{perfil.downloandCV}} download class="btn btn_animated" 
                                     style="border: solid 1px white;color: white;background-color: #304fff;"><span class="circle">Descargar <img src="assets/imagenes/cv-white.svg" alt="languajes" style="width: 30px !important; height: 25px;margin-top: -5px;"/></span></a>
-                                    <a href="https://wa.me/51997072900?text=Hola%20BREINER%20CORREA" class="btn btn_animated"
+                                    <a href={{perfil.wpp}} class="btn btn_animated"
                                     style="border: solid 1px;background-color: #3eca3e;color: white;">
                                         <span style="cursor: pointer;" class="circle">Contactame <i  class="fab fa-whatsapp  text-white" style="font-size: 20px;"></i></span>
                                     </a>
@@ -497,12 +491,11 @@
                                 </div>
                                 <div class="cd-timeline-content">
                                     <div class="content-box">
-                                        <div class="date"> 2017 - 2021</div>
-                                        <div class="name"  style="color: #304fff;"><h3>Universidad Nacional Mayor de San Marcos </h3></div>
-                                        <div class="category" style="color: #304fff;">Ingeniero de Sistemas</div>
+                                        <div class="date">{{perfil.estudioInicioFin}}</div>
+                                        <div class="name"  style="color: #304fff;"><h3>{{perfil.universidad}}</h3></div>
+                                        <div class="category" style="color: #304fff;">{{perfil.profesion}}</div>
                                         <p style="display: block;">
-                                            Egresado de la Facultad FISI de Ingenieria de Sistemas en la cual estuve en el tercio superior,
-                                            y representante de la Universidad en multiples competencias Nacionales
+                                            {{perfil.profesionComentario}}
                                         </p>             
                                     </div>
                                 </div>
@@ -661,8 +654,8 @@
                                 <div class="info-list">
                                     <ul>
                                         <!-- <li><strong><span>Address:</span></strong> 358 W Jefferson St, Bensenville, IL 60112</li> -->
-                                        <li><strong><span>Celular:</span></strong> <a href="tel:997072900">+51 997 072 900</a></li>
-                                        <li><strong><span>E-mail:</span></strong> <a href="mailto:breinerbca2015@gmail.com">breinerbca2015@gmail.com</a>
+                                        <li><strong><span>Celular:</span></strong> <a href={{perfil.celularDireccion}}>{{perfil.celular}}</a></li>
+                                        <li><strong><span>E-mail:</span></strong> <a href={{perfil.emailDireccion}}>{{perfil.email}}</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -674,7 +667,7 @@
 
             <!-- Footer -->
             <footer>
-                <div class="copy">© 2022 Breiner Roiser Correa Atucsa.</div>
+                <div class="copy">{{perfil.actualizado}}</div>
             </footer>
 
         </div>

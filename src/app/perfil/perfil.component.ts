@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Servicio } from '../models/servicio';
+import { Perfil } from '../models/perfil';
 
 @Component({
   selector: 'app-perfil',
@@ -8,6 +9,7 @@ import { Servicio } from '../models/servicio';
 })
 export class PerfilComponent implements OnInit {
 
+  perfil: Perfil = new Perfil();
   servicios: Servicio[] = [{
     nombre: 'Backend',
     descripcion: 'Experiencia con requerimientos en el sector bancario, medico y publico',
